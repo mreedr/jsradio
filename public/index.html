@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 101 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div>Majestic Title</div>
+			<div class="row-fluid">
+				<div class="span12" style="background: blue;">
+					Mejestic Controls 
+					<div class="row-fluid">
+						<div class="span2 offset1" style="background: black;">Share</div>
+						<div class="span6 controls" style="background: white;">
+							<a href="#" id="pause-btn">Pause</a>
+							<a href="#" id="play-btn">Play</a>
+							<a href="#" id="stop-btn">Stop</a>
+							<a href="#" id="next-btn">Next</a>
+							<a href="#" id="mute-btn">Mute</a>
+						</div>
+						<div class="span2" style="background: gray;">Report</div>
+					</div>
+					<div class="row-fluid">
+						<div id="song-container" class="span10 offset1"></div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="span4 offset1">Majestic Casual</div> -->
+			<!-- <div class="span4 offset3">Mobile | Login</div> -->
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="//connect.soundcloud.com/sdk.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/Song.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
